@@ -1,7 +1,13 @@
 package main
-import "fmt"
+import (
+    "fmt"
+    "startGoLLM/inventoryDetails"
+)
 
 
 func main(){
-    fmt.Println("Hi Arupa lets start the Go")
+    fmt.Println("This is the inventory......")
+
+    inventoryDetails.printDetails()
+
 }
