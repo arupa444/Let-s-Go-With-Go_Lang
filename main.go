@@ -8,6 +8,6 @@ import (
 func main(){
     fmt.Println("This is the inventory......")
 
-    inventoryDetails.printDetails()
+    inventoryDetails.PrintDetails()
 
 }
