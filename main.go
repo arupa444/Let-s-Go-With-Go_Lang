@@ -46,7 +46,7 @@ func main(){
     allowGuy := "Arupa"
 
     if allowGuy == "Arupa"{
-        fmt.Printf("Hey, %v", allowGuy)
+        fmt.Printf("Hey, %v\n", allowGuy)
     }
 
     if allowGuy := "Ashutosh"; allowGuy == "Ashutosh"{
