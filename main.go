@@ -57,4 +57,11 @@ func main(){
 
     x, y := 20,6
     fmt.Printf("The mod of x(%v) -> y(%v) is %v",x, y, mod(x,y))
+
+
+
+    if check := 43; check != 20{
+        fmt.Printf("\n%v is a right age...\n",check)
+    }
+
 }
