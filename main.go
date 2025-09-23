@@ -64,4 +64,8 @@ func main(){
         fmt.Printf("\n%v is a right age...\n",check)
     }
 
+    if check := 1; check > 0{
+        fmt.Printf("\n%v is a right age...\n",check)
+    }
+
 }
