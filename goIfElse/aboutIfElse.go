@@ -3,6 +3,9 @@ import(
     "fmt"
 )
 
+func mod(x int, y int) int {
+    return x%y
+}
 func IfFunction(){
     allowGuy := "Arupa"
 
@@ -11,7 +14,7 @@ func IfFunction(){
     }
 
     if allowGuy := "Ashutosh"; allowGuy == "Ashutosh"{
-        fmt.Println("Hi, i am",allowGuy,"\nhow was your day?",storeMessage)
+        fmt.Println("Hi, i am",allowGuy," how was your day?")
     }
     fmt.Printf("%v",allowGuy)
 

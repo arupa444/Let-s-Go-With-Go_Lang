@@ -6,9 +6,6 @@ import (
 //     "bufio"
 //     "os"
 )
-func mod(x int, y int) int {
-    return x%y
-}
 
 func main(){
     fmt.Println("This is the inventory......")
