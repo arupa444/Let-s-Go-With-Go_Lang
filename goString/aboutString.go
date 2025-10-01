@@ -1,0 +1,6 @@
+package goString
+
+import(
+    "fmt"
+)
+
