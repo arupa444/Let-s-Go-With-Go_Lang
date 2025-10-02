@@ -14,6 +14,7 @@ func main(){
     fmt.Println("This is the inventory......")
 
 //     var age int
+//     var age1 int;
 //
 //     fmt.Scan(&age) // simplest way to get input
 //
