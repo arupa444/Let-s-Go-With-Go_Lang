@@ -4,7 +4,7 @@ import(
     "fmt"
 )
 
-func chString(){
+func ChString(){
     var storeString = "Arupa Nanda Swain"
     fmt.Println(storeString)
 }
