@@ -3,11 +3,10 @@ import (
     "fmt"
     "startGoLLM/inventoryDetails"
     "startGoLLM/goIfElse"
+    "startGoLLM/goString"
 //     "bufio"
 //     "os"
 )
-
-
 
 
 func main(){
