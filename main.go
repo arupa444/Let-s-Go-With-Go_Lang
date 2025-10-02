@@ -44,5 +44,6 @@ func main(){
     fmt.Println(storeMessage)
 
     goIfElse.IfFunction()
+    goString.chString()
 
 }
