@@ -6,4 +6,5 @@ import(
 
 func chString(){
     var storeString = "Arupa Nanda Swain"
+    fmt.Println(storeString)
 }
