@@ -57,6 +57,20 @@ func main(){
     fmt.Printf("\n\n\n\n%v %v %v %v\n\n\n\n",a,b,c,d)
     fmt.Printf("\n\n\n\n%v %v %v %v\n\n\n\n",aa,bb,cc,dd)
     fmt.Printf("\n\n\n\n%v %v\n\n\n\n",aaa,bbb)
+
+    var bitManipulation int = 15
+
+    fmt.Printf("%b\n", bitManipulation)
+    fmt.Printf("%d\n", bitManipulation)
+    fmt.Printf("%+d\n", bitManipulation)
+    fmt.Printf("%o\n", bitManipulation)
+    fmt.Printf("%O\n", bitManipulation)
+    fmt.Printf("%x\n", bitManipulation)
+    fmt.Printf("%X\n", bitManipulation)
+    fmt.Printf("%#x\n", bitManipulation)
+    fmt.Printf("%4d\n", bitManipulation)
+    fmt.Printf("%-4d\n", bitManipulation)
+    fmt.Printf("%04d\n", bitManipulation)
     goIfElse.IfFunction()
     goString.ChString()
 
