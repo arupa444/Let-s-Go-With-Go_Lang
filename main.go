@@ -43,6 +43,20 @@ func main(){
 
     fmt.Println(storeMessage)
 
+//     Multi variable declaration
+    var a, b, c, d string = "a","b","c","d"
+    var aa, bb = 3, "aabb"
+    cc, dd := "Arupa", false
+
+    var(
+        aaa int = 46
+        bbb string = "fortnight"
+    )
+
+
+    fmt.Printf("\n\n\n\n%v %v %v %v\n\n\n\n",a,b,c,d)
+    fmt.Printf("\n\n\n\n%v %v %v %v\n\n\n\n",aa,bb,cc,dd)
+    fmt.Printf("\n\n\n\n%v %v\n\n\n\n",aaa,bbb)
     goIfElse.IfFunction()
     goString.ChString()
 
