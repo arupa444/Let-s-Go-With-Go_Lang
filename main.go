@@ -80,6 +80,21 @@ func main(){
     fmt.Printf("%50.2f\n", floatVar)
     fmt.Printf("%g\n", floatVar)
 
+//     print using all type of print options
+    const PrintExample string = "hui hui\nguys hui hui"
+
+    fmt.Println(PrintExample)
+    fmt.Printf("%v\n",PrintExample)
+    fmt.Print(PrintExample,"\n")
+
+    fmt.Printf("%v%%\n", PrintExample)
+    fmt.Printf("%#v\n", PrintExample)
+
+    fmt.Println("Boolean:\t", true)
+    fmt.Println("Integer:\t", 23)
+    fmt.Println("Float:\t", 3.67)
+    fmt.Println("String:\t", "yyuuoo")
+
     goIfElse.IfFunction()
     goString.ChString()
 }
