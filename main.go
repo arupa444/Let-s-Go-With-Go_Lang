@@ -79,7 +79,7 @@ func main(){
     fmt.Printf("%.2f\n", floatVar)
     fmt.Printf("%50.2f\n", floatVar)
     fmt.Printf("%g\n", floatVar)
-    
+
     goIfElse.IfFunction()
     goString.ChString()
 }
