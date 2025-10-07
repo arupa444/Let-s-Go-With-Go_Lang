@@ -16,5 +16,5 @@ func AcceptArray(){
     fmt.Printf("the length is %v\n", len(storeStringInferredArray))
     fmt.Printf("%v\n", storeStringInferredArray[0:3])
     storeStringInferredArray[0] = "Arupa"
-    fmt.Printf("updated list : %v", storeStringInferredArray)
+    fmt.Printf("updated list : %v\n", storeStringInferredArray)
 }
