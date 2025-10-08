@@ -14,6 +14,10 @@ func AcceptArray(){
     fmt.Printf("This is a %T and it stores %v\n", storeInferredArray, storeInferredArray)
     fmt.Printf("This is a %T and it stores %v\n", storeStringInferredArray, storeStringInferredArray)
     fmt.Printf("the length is %v\n", len(storeStringInferredArray))
+    newVar := storeStringInferredArray[2:4]
+    fmt.Printf("the Capacity is %v\n", newVar)
+    fmt.Printf("the Capacity is %v\n", cap(newVar))
+    fmt.Printf("the length is %v\n", len(newVar))
     fmt.Printf("%v\n", storeStringInferredArray[0:3])
     storeStringInferredArray[0] = "Arupa"
     fmt.Printf("updated list : %v\n", storeStringInferredArray)
