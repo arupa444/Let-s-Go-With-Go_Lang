@@ -26,3 +26,12 @@ func ArrayValuesIterativeForLoops(arr []string){
         fmt.Printf("Values : %v\n", ele)
     }
 }
+
+// lets try return
+
+func SoloReturn()(){
+
+}
+func MultiReturn()(){
+
+}
