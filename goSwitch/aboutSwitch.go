@@ -3,7 +3,7 @@ package goSwitch
 import (
     "fmt"
 )
-
+// its about witch case in GoLang
 func tier1Switch(ele){
     switch ele {
         case 1:
