@@ -6,6 +6,7 @@ import (
     "startGoLLM/goString"
     "startGoLLM/goArray"
     "startGoLLM/goSwitch"
+    "startGoLLM/goFor"
 //     "bufio"
 //     "os"
 )
@@ -102,4 +103,5 @@ func main(){
     goArray.AcceptArray()
     goSwitch.Tier1Switch(2)
     goSwitch.MultiTierSwitch(51)
+    goFor.
 }
