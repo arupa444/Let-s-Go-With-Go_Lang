@@ -16,3 +16,8 @@ func ArrayIterativeForLoops(arr []string){
         fmt.Printf("%v : %v\n", index, ele)
     }
 }
+func ArrayIndexIterativeForLoops(arr []string){
+    for index, _ := range arr{
+        fmt.Printf("Index : %v\n", index)
+    }
+}
