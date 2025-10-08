@@ -10,3 +10,9 @@ func RunANormalForLoops(){
         fmt.Println(i)
     }
 }
+
+func ArrayIterativeForLoops(arr []string){
+    for index, ele := range arr{
+        fmt.Printf("%v : %v\n", index, ele)
+    }
+}

@@ -104,4 +104,6 @@ func main(){
     goSwitch.Tier1Switch(2)
     goSwitch.MultiTierSwitch(51)
     goFor.RunANormalForLoops()
+    storeStringInferredArray := []string{"arupa", "deni", "ashutosh", "subham", "i don't know"}
+    goFor.ArrayIterativeForLoops(storeStringInferredArray)
 }
