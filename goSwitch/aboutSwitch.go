@@ -4,7 +4,7 @@ import (
     "fmt"
 )
 // its about witch case in GoLang
-func tier1Switch(ele){
+func Tier1Switch(ele){
     switch ele {
         case 1:
             fmt.Println(ele,"reeeeeeeeee")

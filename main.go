@@ -5,6 +5,7 @@ import (
     "startGoLLM/goIfElse"
     "startGoLLM/goString"
     "startGoLLM/goArray"
+    "startGoLLM/goSwitch"
 //     "bufio"
 //     "os"
 )
@@ -99,4 +100,5 @@ func main(){
     goIfElse.IfFunction()
     goString.ChString()
     goArray.AcceptArray()
+    goSwitch.
 }
