@@ -106,4 +106,5 @@ func main(){
     goFor.RunANormalForLoops()
     storeStringInferredArray := []string{"arupa", "deni", "ashutosh", "subham", "i don't know"}
     goFor.ArrayIterativeForLoops(storeStringInferredArray)
+    goFor.ArrayIndexIterativeForLoops(storeStringInferredArray)
 }
