@@ -100,5 +100,5 @@ func main(){
     goIfElse.IfFunction()
     goString.ChString()
     goArray.AcceptArray()
-    goSwitch.
+    goSwitch.Tier1Switch(43)
 }
