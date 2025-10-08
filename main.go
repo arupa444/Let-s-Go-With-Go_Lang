@@ -103,5 +103,5 @@ func main(){
     goArray.AcceptArray()
     goSwitch.Tier1Switch(2)
     goSwitch.MultiTierSwitch(51)
-    goFor.
+    goFor.RunANormalForLoops()
 }
