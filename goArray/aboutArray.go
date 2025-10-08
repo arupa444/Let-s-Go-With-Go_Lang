@@ -73,8 +73,4 @@ func AcceptArray(){
     fmt.Println("The array : ",slicedBigArray)
     fmt.Println("The Capacity : ",cap(slicedBigArray))
     fmt.Println("The Length ; ",len(slicedBigArray))
-
-
-
-
 }
