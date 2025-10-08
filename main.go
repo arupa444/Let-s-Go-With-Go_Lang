@@ -101,5 +101,5 @@ func main(){
     goString.ChString()
     goArray.AcceptArray()
     goSwitch.Tier1Switch(2)
-    goSwitch.MultiTierSwitch(31)
+    goSwitch.MultiTierSwitch(51)
 }
