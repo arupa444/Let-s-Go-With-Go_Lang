@@ -124,4 +124,7 @@ func main(){
     fmt.Print(goFunc.WithReturn1ButWithParameter(funcVar),"\n")
     fmt.Print(goFunc.WithReturn2ButWithParameter(funcVar, funcVar),"\n")
     fmt.Print(goFunc.WithBarReturn(funcVar, funcVar),"\n")
+    ele, ele1 := goFunc.MultiValReturn(funcVar, funcVar)
+    fmt.Println("Multi return values :",ele,ele1)
+    fmt.Println(goFunc.MultiValReturn(funcVar, funcVar))
 }
