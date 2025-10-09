@@ -26,9 +26,3 @@ func ArrayValuesIterativeForLoops(arr []string){
         fmt.Printf("Values : %v\n", ele)
     }
 }
-
-func acceptValuesIterativeForLoops(arr []string){
-    for _, ele := range arr{
-        fmt.Printf("Values : %v\n", ele)
-    }
-}
