@@ -101,10 +101,14 @@ func main(){
 
 
     goIfElse.IfFunction()
+
     goString.ChString()
+
     goArray.AcceptArray()
+
     goSwitch.Tier1Switch(2)
     goSwitch.MultiTierSwitch(51)
+
     goFor.RunANormalForLoops()
     storeStringInferredArray := []string{"arupa", "deni", "ashutosh", "Subham", "i don't know"}
     goFor.ArrayIterativeForLoops(storeStringInferredArray)
@@ -113,5 +117,7 @@ func main(){
     goFor.WhileLoopUsingFor(storeStringInferredArray)
     goFor.TrueLoop(storeStringInferredArray)
     goFor.WhileLoopUsingFor(storeStringInferredArray)
+
+
     goFunc.NormalOneWithNoReturn()
 }
