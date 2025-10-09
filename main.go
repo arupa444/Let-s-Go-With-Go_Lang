@@ -123,4 +123,5 @@ func main(){
     goFunc.NormalOneWithNoReturnButWithParameter(funcVar)
     fmt.Print(goFunc.WithReturn1ButWithParameter(funcVar),"\n")
     fmt.Print(goFunc.WithReturn2ButWithParameter(funcVar, funcVar),"\n")
+    fmt.Print(goFunc.WithBarReturn(funcVar, funcVar),"\n")
 }

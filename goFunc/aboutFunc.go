@@ -19,3 +19,13 @@ func WithReturn1ButWithParameter(ele int) int{
 func WithReturn2ButWithParameter(ele int, ele1 int) int{
     return ele+ele1
 }
+
+func WithBarReturn(ele int, ele1 int) (result int){
+    result = ele+ele1
+    return
+}
+func MultiValReturn(ele int, ele1 int) (result int, result1 int){
+    result = ele + ele1 -2
+    result1 = ele - ele1 +2
+    return
+}
