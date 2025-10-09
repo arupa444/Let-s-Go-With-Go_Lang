@@ -27,11 +27,8 @@ func ArrayValuesIterativeForLoops(arr []string){
     }
 }
 
-// lets try return
-
-func SoloReturn()(){
-
-}
-func MultiReturn()(){
-
+func acceptValuesIterativeForLoops(arr []string){
+    for _, ele := range arr{
+        fmt.Printf("Values : %v\n", ele)
+    }
 }
