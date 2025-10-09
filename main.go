@@ -8,6 +8,7 @@ import (
     "startGoLLM/goSwitch"
     "startGoLLM/goFor"
     "startGoLLM/goFunc"
+    "startGoLLM/goStruct"
 //     "bufio"
 //     "os"
 )
@@ -128,4 +129,5 @@ func main(){
     fmt.Println("Multi return values :",ele,ele1)
     fmt.Println(goFunc.MultiValReturn(funcVar, funcVar))
     fmt.Println(goFunc.FactorialRecur(5))
+    fmt.Println(goStruct.StructIt("Arupa", "Ai Developer", 21, 417000))
 }
