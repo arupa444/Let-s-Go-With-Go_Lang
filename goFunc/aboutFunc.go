@@ -29,3 +29,10 @@ func MultiValReturn(ele int, ele1 int) (result int, result1 int){
     result1 = ele - ele1 +2
     return
 }
+
+func FactorialRecur(count int) int{
+    if count == 1{
+        return 1
+    }
+    return count + FactorialRecur(count - 1)
+}

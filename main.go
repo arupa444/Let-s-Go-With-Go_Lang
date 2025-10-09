@@ -127,4 +127,5 @@ func main(){
     ele, ele1 := goFunc.MultiValReturn(funcVar, funcVar)
     fmt.Println("Multi return values :",ele,ele1)
     fmt.Println(goFunc.MultiValReturn(funcVar, funcVar))
+    fmt.Println(goFunc.FactorialRecur(5))
 }
