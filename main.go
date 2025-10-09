@@ -7,6 +7,7 @@ import (
     "startGoLLM/goArray"
     "startGoLLM/goSwitch"
     "startGoLLM/goFor"
+    "startGoLLM/goFunc"
 //     "bufio"
 //     "os"
 )
@@ -112,4 +113,5 @@ func main(){
     goFor.WhileLoopUsingFor(storeStringInferredArray)
     goFor.TrueLoop(storeStringInferredArray)
     goFor.WhileLoopUsingFor(storeStringInferredArray)
+    goFunc.NormalOneWithNoReturn()
 }
