@@ -118,6 +118,7 @@ func main(){
     goFor.TrueLoop(storeStringInferredArray)
     goFor.WhileLoopUsingFor(storeStringInferredArray)
 
-
+    funcVar := 29
     goFunc.NormalOneWithNoReturn()
+    goFunc.NormalOneWithNoReturnButWithParameter(funcVar)
 }
