@@ -130,4 +130,5 @@ func main(){
     fmt.Println(goFunc.MultiValReturn(funcVar, funcVar))
     fmt.Println(goFunc.FactorialRecur(5))
     fmt.Println(goStruct.StructIt("Arupa", "Ai Developer", 21, 417000))
+    fmt.Println(goStruct.StructItTwo("Arupa", "Ai Developer", 21, 417000))
 }
