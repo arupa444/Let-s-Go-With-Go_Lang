@@ -26,3 +26,22 @@ func ArrayValuesIterativeForLoops(arr []string){
         fmt.Printf("Values : %v\n", ele)
     }
 }
+
+func WhileLoopUsingFor(arr []string){
+    i := len(arr)-1
+    for i >= 0 {
+        fmt.Println("The ele :", arr[i])
+        i--;
+    }
+}
+
+func TrueLoop(arr []string){
+    i := 0
+    for {
+        fmt.Println(arr[i])
+        i++;
+        if i==len(arr) {
+            break;
+        }
+    }
+}

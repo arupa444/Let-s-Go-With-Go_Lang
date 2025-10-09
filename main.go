@@ -98,14 +98,18 @@ func main(){
     fmt.Println("Float:\t", 3.67)
     fmt.Println("String:\t", "yyuuoo")
 
+
     goIfElse.IfFunction()
     goString.ChString()
     goArray.AcceptArray()
     goSwitch.Tier1Switch(2)
     goSwitch.MultiTierSwitch(51)
     goFor.RunANormalForLoops()
-    storeStringInferredArray := []string{"arupa", "deni", "ashutosh", "subham", "i don't know"}
+    storeStringInferredArray := []string{"arupa", "deni", "ashutosh", "Subham", "i don't know"}
     goFor.ArrayIterativeForLoops(storeStringInferredArray)
     goFor.ArrayIndexIterativeForLoops(storeStringInferredArray)
     goFor.ArrayValuesIterativeForLoops(storeStringInferredArray)
+    goFor.WhileLoopUsingFor(storeStringInferredArray)
+    goFor.TrueLoop(storeStringInferredArray)
+    goFor.WhileLoopUsingFor(storeStringInferredArray)
 }
