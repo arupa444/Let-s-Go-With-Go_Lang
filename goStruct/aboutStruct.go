@@ -1,5 +1,8 @@
 package goStruct
 
+import (
+    "fmt"
+)
 
 type Employee struct{
     name string
@@ -29,5 +32,10 @@ func StructItTwo(name string, domain string, age int, salary int) (emp1 Employee
 }
 
 func PrintStruct(emp1 Employee){
-    var storeKeys := make([]string, "name", "domain", "age", "salary")
+    var storeKeys = []string{"name", "domain", "age", "salary"}
+    fmt.Println("The employee documents that we need : ", storeKeys, emp1)
+    for index, ele := range storeKeys{
+        fmt.Println(index, ":", ele)
+        fmt.Println(index, ":", emp1[ele[0]])
+    }
 }
