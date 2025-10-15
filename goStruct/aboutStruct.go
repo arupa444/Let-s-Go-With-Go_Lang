@@ -34,8 +34,12 @@ func StructItTwo(name string, domain string, age int, salary int) (emp1 Employee
 func PrintStruct(emp1 Employee){
     var storeKeys = []string{"name", "domain", "age", "salary"}
     fmt.Println("The employee documents that we need : ", storeKeys, emp1)
-    for index, ele := range storeKeys{
-        fmt.Println(index, ":", ele)
-        fmt.Println(index, ":", emp1[ele[0]])
-    }
+//     for index, ele := range storeKeys{
+//         fmt.Println(index, ":", ele)
+//         fmt.Println(index, ":", emp1)
+//     }
+    fmt.Println(storeKeys[0],":",emp1.name)
+    fmt.Println(storeKeys[1],":",emp1.domain)
+    fmt.Println(storeKeys[2],":",emp1.age)
+    fmt.Println(storeKeys[3],":",emp1.salary)
 }
