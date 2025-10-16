@@ -9,6 +9,7 @@ import (
     "startGoLLM/goFor"
     "startGoLLM/goFunc"
     "startGoLLM/goStruct"
+    "startGoLLM/goMap"
 //     "bufio"
 //     "os"
 )
@@ -133,4 +134,5 @@ func main(){
     storeStruct := goStruct.StructItTwo("Ashutosh", "Ai Developer", 22, 417000)
     fmt.Println(storeStruct)
     goStruct.PrintStruct(storeStruct)
+    goMap.CreateMap()
 }
