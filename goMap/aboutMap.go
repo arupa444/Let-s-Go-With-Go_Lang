@@ -16,7 +16,7 @@ func CreateStaticMap(){
 func CreateDynamicMap()map[string]string{
     var storeCarPrices = make(map[string]string)
     storeCarPrices["name"] = "BMW"
-    storeCarPrices["price"] = "9000000"
+    storeCarPrices["price"] = "90000000"
     storeCarPrices["location"] = "Berhampur"
     return storeCarPrices
 }
