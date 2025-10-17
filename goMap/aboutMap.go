@@ -13,7 +13,7 @@ func CreateStaticMap(){
     fmt.Printf("%v\n",storeTeam)
 }
 
-func CreateDynamicMap(){
+func CreateDynamicMap()(storeCarPrices map[string]string){
     var storeCarPrices = make(map[string]string)
     storeCarPrices["name"] = "BMW"
     storeCarPrices["price"] = "9000000"
