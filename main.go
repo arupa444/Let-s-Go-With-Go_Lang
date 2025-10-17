@@ -135,5 +135,6 @@ func main(){
     fmt.Println(storeStruct)
     goStruct.PrintStruct(storeStruct)
     goMap.CreateStaticMap()
-    fmt.Println(goMap.CreateDynamicMap())
+    fmt.Println(goMap.CreateDynamicBMWMap())
+    fmt.Println(goMap.CreateDynamicRRMap())
 }
