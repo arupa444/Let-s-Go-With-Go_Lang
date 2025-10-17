@@ -10,6 +10,7 @@ import (
     "startGoLLM/goFunc"
     "startGoLLM/goStruct"
     "startGoLLM/goMap"
+    "startGoLLM/goQuestions"
 //     "bufio"
 //     "os"
 )
@@ -138,4 +139,5 @@ func main(){
     fmt.Println(goMap.CreateDynamicBMWMap())
     fmt.Println(goMap.CreateDynamicRRMap())
     fmt.Println(goMap.CreateDynamicTATAMap())
+    fmt.Println(goQuestions.GoFirstQue())
 }
