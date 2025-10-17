@@ -28,3 +28,12 @@ func CreateDynamicRRMap() map[string]string {
     storeCarPrices["location"] = "Berhampur"
     return storeCarPrices
 }
+
+
+func CreateDynamicTATAMap() map[string]string {
+    var storeCarPrices = make(map[string]string)
+    storeCarPrices["name"] = "TATA"
+    storeCarPrices["price"] = "100000"
+    storeCarPrices["location"] = "Berhampur"
+    return storeCarPrices
+}

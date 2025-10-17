@@ -137,4 +137,5 @@ func main(){
     goMap.CreateStaticMap()
     fmt.Println(goMap.CreateDynamicBMWMap())
     fmt.Println(goMap.CreateDynamicRRMap())
+    fmt.Println(goMap.CreateDynamicTATAMap())
 }
