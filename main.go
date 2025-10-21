@@ -147,4 +147,6 @@ func main(){
 //     goQuestions.GoThirdQue(21)
     tempArray := []int{1,2,34,32,973596,52,35,235,235}
     fmt.Println(goQuestions.GoForthQue(tempArray))
+    tempArray1 := []float64{13.34,4353.564,4564.234,3464.5645,33.43,346543.34}
+    fmt.Println(goQuestions.GoForthQue(tempArray1))
 }
