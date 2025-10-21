@@ -151,4 +151,5 @@ func main(){
     fmt.Println(goQuestions.GoForthQue(tempArray1))
     tempStr := "Arupa nanda swain"
     fmt.Println(goQuestions.GoFifthQue1(tempStr))
+    fmt.Println(goQuestions.GoFifthQue2(tempStr))
 }

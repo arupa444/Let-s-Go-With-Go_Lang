@@ -77,3 +77,14 @@ func GoFifthQue1(str string)int{
     }
     return counts
 }
+
+func GoFifthQue2(str string)int{
+    counts := 0
+    for _, ele := range str{
+        switch ele{
+            case 'a','e','i','o','u','A','E','I','O','U':
+                counts++;
+        }
+    }
+    return counts;
+}
