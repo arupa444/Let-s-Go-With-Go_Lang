@@ -145,4 +145,6 @@ func main(){
     fmt.Println(goQuestions.GoSecondQue("his❤️"))
     fmt.Println(goQuestions.GoThirdQue(101))
 //     goQuestions.GoThirdQue(21)
+    tempArray := []int{1,2,34,32,973596,52,35,235,235}
+    fmt.Println(goQuestions.GoForthQue(tempArray))
 }

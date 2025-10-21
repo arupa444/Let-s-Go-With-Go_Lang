@@ -3,6 +3,7 @@ package goQuestions
 import (
     "fmt"
     "math"
+    "golang.org/x/exp/constraints"
 )
 
 // Write a program that prints numbers from 1 to 100, but for multiples of 3 print "Fizz",
@@ -46,4 +47,19 @@ func GoThirdQue(ele int)string{
         }
     }
     return "Prime No."
+}
+
+
+// Write a function that finds the largest element in an array of integers.
+
+// Generic Function
+
+func GoForthQue[T constraints.Ordered](nums []T) T{
+    maxVal := nums[0]
+    for _, ele := range nums[1:]{
+        if ele>maxVal{
+            maxVal = ele
+        }
+    }
+    return maxVal
 }
