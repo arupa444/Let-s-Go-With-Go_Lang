@@ -142,4 +142,5 @@ func main(){
 
 //     Go Practice Question calling/invoking
     goQuestions.GoFirstQue()
+    goQuestions.GoSecondQue("his❤️")
 }

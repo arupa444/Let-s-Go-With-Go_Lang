@@ -21,3 +21,12 @@ func GoFirstQue(){
         }
     }
 }
+
+// Write a function that takes a string and returns it reversed.
+
+func GoSecondQue(str string){
+    storeStr := []rune(str)
+//     storeStr1 := []byte(str)
+    fmt.Println(storeStr)
+//     fmt.Println(storeStr1)
+}
