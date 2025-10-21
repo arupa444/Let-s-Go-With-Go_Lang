@@ -88,3 +88,15 @@ func GoFifthQue2(str string)int{
     }
     return counts;
 }
+
+func GoSixthQue[T constraints.Ordered](nums []T) []T{
+    seen := make(map[T]bool)
+    returnSlice := make([]T,0,len(nums))
+    for _, ele := range nums{
+        if !seen[ele]{
+            seen[ele] = true
+            returnSlice =append(returnSlice, ele)
+        }
+    }
+    return returnSlice
+}

@@ -152,4 +152,6 @@ func main(){
     tempStr := "Arupa nanda swain"
     fmt.Println(goQuestions.GoFifthQue1(tempStr))
     fmt.Println(goQuestions.GoFifthQue2(tempStr))
+    tempArray1 = []float64{112,323,423,4,3,43,43,43,23,0,321,2,1,21,1,21,12}
+    fmt.Println(goQuestions.GoSixthQue(tempArray1))
 }
