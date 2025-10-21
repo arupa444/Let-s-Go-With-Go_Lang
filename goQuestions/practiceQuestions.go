@@ -24,9 +24,12 @@ func GoFirstQue(){
 
 // Write a function that takes a string and returns it reversed.
 
-func GoSecondQue(str string){
+func GoSecondQue(str string)string{
     storeStr := []rune(str)
 //     storeStr1 := []byte(str)
-    fmt.Println(storeStr)
 //     fmt.Println(storeStr1)
+    for i, j := 0, len(storeStr)-1; i<j; i, j = i+1, j-1{
+        storeStr[i], storeStr[j] = storeStr[j], storeStr[i]
+    }
+    return string(storeStr)
 }
