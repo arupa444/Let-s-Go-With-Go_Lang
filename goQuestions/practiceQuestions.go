@@ -3,6 +3,7 @@ package goQuestions
 import (
     "fmt"
     "math"
+    "strings"
     "golang.org/x/exp/constraints"
 )
 
@@ -62,4 +63,17 @@ func GoForthQue[T constraints.Ordered](nums []T) T{
         }
     }
     return maxVal
+}
+
+
+// Write a program that counts the number of vowels in a given string.
+func GoFifthQue1(str string)int{
+    counts := 0
+    searchVowel := "aeiouAEIOU"
+    for _,ele := range str{
+        if strings.ContainsRune(searchVowel, ele){
+            counts++;
+        }
+    }
+    return counts
 }
