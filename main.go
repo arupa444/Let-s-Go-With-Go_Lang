@@ -78,9 +78,9 @@ func main(){
     fmt.Printf("%4d\n", bitManipulation)
     fmt.Printf("%-4d\n", bitManipulation)
     fmt.Printf("%04d\n", bitManipulation)
-    
+
     var floatVar = 3.141
-    
+
     fmt.Printf("%e\n", floatVar)
     fmt.Printf("%f\n", floatVar)
     fmt.Printf("%.2f\n", floatVar)
