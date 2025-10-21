@@ -89,6 +89,8 @@ func GoFifthQue2(str string)int{
     return counts;
 }
 
+// Write a function that removes duplicate elements from a slice of integers/Floats/Strings.
+
 func GoSixthQue[T constraints.Ordered](nums []T) []T{
     seen := make(map[T]bool)
     returnSlice := make([]T,0,len(nums))
@@ -100,3 +102,6 @@ func GoSixthQue[T constraints.Ordered](nums []T) []T{
     }
     return returnSlice
 }
+
+// Write a program that merges two sorted slices into one sorted slice.
+
