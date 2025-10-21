@@ -139,5 +139,7 @@ func main(){
     fmt.Println(goMap.CreateDynamicBMWMap())
     fmt.Println(goMap.CreateDynamicRRMap())
     fmt.Println(goMap.CreateDynamicTATAMap())
+
+//     Go Practice Question calling/invoking
     goQuestions.GoFirstQue()
 }
