@@ -143,4 +143,6 @@ func main(){
 //     Go Practice Question calling/invoking
     goQuestions.GoFirstQue()
     fmt.Println(goQuestions.GoSecondQue("his❤️"))
+    fmt.Println(goQuestions.GoThirdQue(101))
+//     goQuestions.GoThirdQue(21)
 }

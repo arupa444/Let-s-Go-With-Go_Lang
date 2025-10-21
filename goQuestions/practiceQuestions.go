@@ -2,6 +2,7 @@ package goQuestions
 
 import (
     "fmt"
+    "math"
 )
 
 // Write a program that prints numbers from 1 to 100, but for multiples of 3 print "Fizz",
@@ -32,4 +33,17 @@ func GoSecondQue(str string)string{
         storeStr[i], storeStr[j] = storeStr[j], storeStr[i]
     }
     return string(storeStr)
+}
+
+
+// Write a program that checks if a given number is prime or not.
+
+func GoThirdQue(ele int)string{
+    ele1 := math.Sqrt(float64(ele))
+    for i:=2; i<int(ele1); i++{
+        if ele%i == 0{
+            return "Not a Prime No."
+        }
+    }
+    return "Prime No."
 }
