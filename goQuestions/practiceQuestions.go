@@ -105,7 +105,7 @@ func GoSixthQue[T constraints.Ordered](nums []T) []T{
 
 // Write a program that merges two sorted slices into one sorted slice.
 
-func GoSevenQue[T constraints.Ordered](nums []T, nums1 []T) []T{
+func GoSevenQue[T constraints.Ordered](nums, nums1 []T) []T{
     returnSlice := make([]T,0,len(nums)+len(nums1))
     i , j := 0, 0
 
