@@ -5,6 +5,7 @@ import (
     "math"
     "strings"
     "golang.org/x/exp/constraints"
+    "sort"
 )
 
 // Write a program that prints numbers from 1 to 100, but for multiples of 3 print "Fizz",
@@ -121,4 +122,10 @@ func GoSevenQue[T constraints.Ordered](nums, nums1 []T) []T{
     returnSlice = append(returnSlice, nums[i:]...)
     returnSlice = append(returnSlice, nums1[j:]...)
     return returnSlice
+}
+
+// Write a program that merges two slices into one sorted slice.
+
+func GoSevenQue1[T constraints.Ordered](nums, nums1 []T) []T{
+
 }
