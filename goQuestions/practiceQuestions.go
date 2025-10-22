@@ -127,5 +127,22 @@ func GoSevenQue[T constraints.Ordered](nums, nums1 []T) []T{
 // Write a program that merges two slices into one sorted slice.
 
 func GoSevenQue1[T constraints.Ordered](nums, nums1 []T) []T{
+    sort.Slice(nums, func(a,b int)bool{return nums[a]<nums[b]})
+    sort.Slice(nums1, func(a,b int)bool{return nums1[a]<nums1[b]})
 
+    returnSlice := make([]T,0,len(nums)+len(nums1))
+    a, b := 0, 0
+
+    for a < len(nums) && b < len(nums1){
+        if nums[a]<=nums[b]{
+            returnSlice = append(returnSlice, nums[a])
+            a++;
+        }else{
+            returnSlice = append(returnSlice, nums1[b])
+            b++;
+        }
+    }
+    returnSlice = append(returnSlice, nums[a:]...)
+    returnSlice = append(returnSlice, nums1[b:]...)
+    return returnSlice
 }

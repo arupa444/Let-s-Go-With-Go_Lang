@@ -159,4 +159,6 @@ func main(){
     tempSortedArray2 := []int{1,2,3,3,3,4,23,44,55,643,54656,45645645}
 
     fmt.Println(goQuestions.GoSevenQue(tempSortedArray1, tempSortedArray2))
+
+    fmt.Println(goQuestions.GoSevenQue1(tempSortedArray1, tempSortedArray2))
 }
