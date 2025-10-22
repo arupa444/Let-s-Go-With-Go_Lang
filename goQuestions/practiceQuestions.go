@@ -146,3 +146,4 @@ func GoSevenQue1[T constraints.Ordered](nums, nums1 []T) []T{
     returnSlice = append(returnSlice, nums1[b:]...)
     return returnSlice
 }
+
