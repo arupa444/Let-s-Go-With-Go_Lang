@@ -163,4 +163,6 @@ func main(){
     tempArray71 := []int{1,34,53,45,46,456,75,67,568765,823,54,345,67567,5867868}
     tempArray72 := []int{243534,645,7658,61,24,456,56,3,3,3,4,23,44,55,643,54656,45645645}
     fmt.Println(goQuestions.GoSevenQue1(tempArray71, tempArray72))
+    fmt.Println(tempArray71)
+    fmt.Println(goQuestions.GoEightQue(tempArray71, 0))
 }

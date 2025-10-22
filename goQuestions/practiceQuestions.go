@@ -149,3 +149,13 @@ func GoSevenQue1[T constraints.Ordered](nums, nums1 []T) []T{
 
 // Write a function that rotates a slice to the right by k positions
 
+func GoEightQue[T constraints.Ordered](nums []T, k int) []T{
+    if len(nums) == 0 || k == 0{
+        return nums
+    }
+    k %= len(nums)
+    returnSlice := make([]T, 0, len(nums))
+    returnSlice = append(returnSlice, nums[k:]...)
+    returnSlice = append(returnSlice, nums[:k]...)
+    return returnSlice
+}
