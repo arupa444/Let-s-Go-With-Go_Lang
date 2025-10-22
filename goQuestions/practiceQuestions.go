@@ -134,7 +134,7 @@ func GoSevenQue1[T constraints.Ordered](nums, nums1 []T) []T{
     a, b := 0, 0
 
     for a < len(nums) && b < len(nums1){
-        if nums[a]<=nums[b]{
+        if nums[a]<=nums1[b]{
             returnSlice = append(returnSlice, nums[a])
             a++;
         }else{
