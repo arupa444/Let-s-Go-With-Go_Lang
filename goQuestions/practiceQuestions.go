@@ -160,7 +160,7 @@ func GoEightQue[T constraints.Ordered](nums []T, k int) []T{
     return returnSlice
 }
 
-// Write a program that finds the second largest number in a slice.
+// Write a program that finds the second Smallest number in a slice.
 
 func GoNinthQue[T constraints.Ordered](nums []T) T{
     sort.Slice(nums, func(a, b int) bool{ return nums[a] < nums[b]})
@@ -172,3 +172,29 @@ func GoNinthQue[T constraints.Ordered](nums []T) T{
     }
     return returnVal
 }
+
+// Write a program that finds the second largest number in a slice.
+
+func GoNinthQue1[T constraints.Ordered](nums []T) T{
+    if len(nums) < 2{
+        panic("Slice must have 2 or more element")
+    }
+    largest := nums[0]
+    secondLargest := nums[0]
+
+    for _, ele := range nums{
+        if largest < ele{
+            secondLargest = largest
+            largest = ele
+        }else if ele > secondLargest && ele < largest{
+            secondLargest = ele
+        }
+    }
+    if largest == secondLargest{
+        panic("No second elements exist")
+    }
+    return secondLargest
+}
+
+// Write a function that checks if two slices are equal (contain the same elements in the same order)
+
