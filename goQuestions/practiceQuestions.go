@@ -198,3 +198,16 @@ func GoNinthQue1[T constraints.Ordered](nums []T) T{
 
 // Write a function that checks if two slices are equal (contain the same elements in the same order)
 
+func GoTenthQue[T constraints.Ordered](slice1 []T, slice2 []T) bool{
+    if len(slice1) != len(slice2){
+        return false
+    }
+    for index, ele := range slice1{
+        if ele != slice2[index]{
+            return false
+        }
+    }
+    return true
+}
+
+// Write a program that counts the frequency of each word in a given sentence using a map.
