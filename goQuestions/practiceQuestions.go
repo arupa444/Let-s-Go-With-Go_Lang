@@ -214,12 +214,12 @@ func GoTenthQue[T constraints.Ordered](slice1 []T, slice2 []T) bool{
 
 func GoElevenQue(sentence string) map[string]int{
     storeWordCount := make(map[string]int)
-    storeSplitString := strings.Split(sentence, " ")
-    for _, ele := range storeSplitString{
-        if !storeWordCount[ele]{
-            storeWordCount[ele] = 1;
+
+    for _, ele := range strings.Split(sentence, " "){
+        if _, exist := storeWordCount[ele]; !exist{
+            storeWordCount[ele] = 1
         }else{
-            storeWordCount[ele]++;
+            storeWordCount[ele]++
         }
     }
     return storeWordCount
