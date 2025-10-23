@@ -159,3 +159,16 @@ func GoEightQue[T constraints.Ordered](nums []T, k int) []T{
     returnSlice = append(returnSlice, nums[:k]...)
     return returnSlice
 }
+
+// Write a program that finds the second largest number in a slice.
+
+func GoNinthQue[T constraints.Ordered](nums []T) T{
+    sort.Slice(nums, func(a, b int) bool{ return nums[a] < nums[b]})
+    returnVal := nums[0]
+    for _, ele := range nums[1:]{
+        if ele != returnVal{
+            return ele
+        }
+    }
+    return returnVal
+}

@@ -165,4 +165,5 @@ func main(){
     fmt.Println(goQuestions.GoSevenQue1(tempArray71, tempArray72))
     fmt.Println(tempArray71)
     fmt.Println(goQuestions.GoEightQue(tempArray71, 0))
+    fmt.Println(goQuestions.GoNinthQue(tempArray72))
 }
