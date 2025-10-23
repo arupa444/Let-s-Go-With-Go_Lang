@@ -212,3 +212,15 @@ func GoTenthQue[T constraints.Ordered](slice1 []T, slice2 []T) bool{
 
 // Write a program that counts the frequency of each word in a given sentence using a map.
 
+func GoElevenQue(sentence string) map[string]int{
+    storeWordCount := make(map[string]int)
+    storeSplitString := strings.Split(sentence, " ")
+    for _, ele := range storeSplitString{
+        if !storeWordCount[ele]{
+            storeWordCount[ele] = 1;
+        }else{
+            storeWordCount[ele]++;
+        }
+    }
+    return storeWordCount
+}
