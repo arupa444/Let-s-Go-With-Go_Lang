@@ -249,3 +249,35 @@ func GoTwelveQue(title string, authors []string, pages int) Book{
 
     return book1
 }
+
+// Write a program that finds the most frequent character in a string using a map.
+
+type MostFreq struct{
+    ele string
+    count int
+}
+
+func GoThirteenQue(str string)MostFreq{
+    freqChar := make(map[string]int)
+    var maxFreq MostFreq
+    maxFreq.ele = string(str[0])
+    maxFreq.count = 1
+    for _, ele := range strings.Split(str, ""){
+        freqChar[ele]++
+        if maxFreq.count < freqChar[ele]{
+            maxFreq.ele = ele
+            maxFreq.count = freqChar[ele]
+        }
+    }
+    return maxFreq
+}
+// Create a struct for Student with Name and Grades (slice of integers),
+// and write a method to calculate average grade. 15.
+
+// type Student struct{
+//     Name string
+//     Grades []int
+// }
+//
+// func
+

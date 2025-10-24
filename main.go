@@ -172,4 +172,5 @@ func main(){
     fmt.Println(goQuestions.GoTwelveQue("Bad Touch and Good Touch", []string{"Arupa", "Ashutosh", "Daniel"}, 6969))
     storeForFunc12 := goQuestions.GoTwelveQue("Bad Touch and Good Touch", []string{"Arupa", "Ashutosh", "Daniel"}, 6969)
     goQuestions.CallBook(storeForFunc12)
+    fmt.Println(goQuestions.GoThirteenQue("Arupa Nanda Swain"))
 }
