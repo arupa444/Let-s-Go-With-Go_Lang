@@ -169,4 +169,6 @@ func main(){
     fmt.Println(goQuestions.GoNinthQue1(tempArray72))
     fmt.Println(goQuestions.GoTenthQue(tempArray72, tempArray72))
     fmt.Println(goQuestions.GoElevenQue("HI arupa how are you you good??"))
+    fmt.Println(goQuestions.GoTwelveQue("Bad Touch and Good Touch", []string{"Arupa", "Ashutosh", "Daniel"}, 6969))
+    storeForFunc12 := goQuestions.GoTwelveQue("Bad Touch and Good Touch", []string{"Arupa", "Ashutosh", "Daniel"}, 6969)
 }

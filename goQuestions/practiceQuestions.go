@@ -230,7 +230,18 @@ func GoElevenQue(sentence string) map[string]int{
 
 type Book struct{
     Title string
-    Author []string
+    Authors []string
     Pages int
 }
 
+// func callBook(jhaaaat Book)
+
+
+func GoTwelveQue(title string, authors []string, pages int) Book{
+    var book1 Book
+    book1.Title = title
+    book1.Authors = authors
+    book1.Pages = pages
+
+    return book1
+}
