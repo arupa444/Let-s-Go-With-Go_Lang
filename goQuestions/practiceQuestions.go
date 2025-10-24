@@ -234,7 +234,11 @@ type Book struct{
     Pages int
 }
 
-// func callBook(jhaaaat Book)
+func CallBook(jhaaaat Book){
+    fmt.Printf("Title of the book : %#v\n",jhaaaat.Title)
+    fmt.Printf("Authors of the book : %v\n",jhaaaat.Authors)
+    fmt.Printf("Pages of the book : %v\n",jhaaaat.Pages)
+}
 
 
 func GoTwelveQue(title string, authors []string, pages int) Book{
