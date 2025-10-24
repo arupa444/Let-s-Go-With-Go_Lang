@@ -274,10 +274,25 @@ func GoThirteenQue(str string)MostFreq{
 // Create a struct for Student with Name and Grades (slice of integers),
 // and write a method to calculate average grade. 15.
 
-// type Student struct{
-//     Name string
-//     Grades []int
-// }
-//
-// func
+type Student struct{
+    Name string
+    Grades []int
+    AvgGrade float64
+}
 
+func GoFourteenQue(name string) Student{
+    var grade int
+    var student1 Student
+    fmt.Print("Accepts all the grades until and unless you give -1 in console and enter: ")
+    student1.Name = name
+    for true{
+        fmt.Scan(&grade)
+        if grade == -1{
+            break
+        }
+        student1.AvgGrade += float64(grade)
+        student1.Grades = append(student1.Grades, grade)
+    }
+    student1.AvgGrade /= float64(len(student1.Grades))
+    return student1
+}
