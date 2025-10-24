@@ -224,3 +224,13 @@ func GoElevenQue(sentence string) map[string]int{
     }
     return storeWordCount
 }
+
+// Create a struct for a Book with fields (Title, Author, Pages) and
+// write a function that prints book details.
+
+type Book struct{
+    Title string
+    Author []string
+    Pages int
+}
+
