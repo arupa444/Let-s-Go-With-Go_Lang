@@ -327,3 +327,20 @@ func GoLinearSearch(nums []int, ele int)int{
     }
     return -1
 }
+
+// binary search in an slice and find the index
+func GoBinarySearch(nums []int, ele int)int{
+    startPivot := 0
+    endPivot := len(nums)
+    for startPivot < endPivot{
+        if nums[(startPivot+endPivot)/2] == ele{
+            return (startPivot+endPivot)/2
+        }else if nums[(startPivot+endPivot)/2] > ele{
+            endPivot = ((startPivot+endPivot)/2)-1
+        }else{
+            startPivot = ((startPivot+endPivot)/2)+1
+        }
+    }
+    return -1
+}
+
