@@ -176,4 +176,5 @@ func main(){
     fmt.Println(goQuestions.GoFourteenQue("Arupa"))
     fmt.Println(goQuestions.GoFifteenQue(storeStringInferredArray))
     fmt.Println(goQuestions.GoSixteenQue(7))
+    fmt.Println(goQuestions.GoLinearSearch(tempArray71, 69))
 }

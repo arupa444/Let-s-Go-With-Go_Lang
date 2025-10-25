@@ -319,6 +319,11 @@ func GoSixteenQue(nth int) int{
     return GoSixteenQue(nth-1) + GoSixteenQue(nth-2)
 }
 // linear search in an slice and find the index
-func GoLinearSearch(ele int)int{
-
+func GoLinearSearch(nums []int, ele int)int{
+    for index, num := range nums{
+        if num == ele{
+            return index
+        }
+    }
+    return -1
 }
