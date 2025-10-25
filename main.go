@@ -173,7 +173,7 @@ func main(){
     storeForFunc12 := goQuestions.GoTwelveQue("Bad Touch and Good Touch", []string{"Arupa", "Ashutosh", "Daniel"}, 6969)
     goQuestions.CallBook(storeForFunc12)
     fmt.Println(goQuestions.GoThirteenQue("Arupa Nanda Swain"))
-    fmt.Println(goQuestions.GoFourteenQue("Arupa"))
+//     fmt.Println(goQuestions.GoFourteenQue("Arupa"))
     fmt.Println(goQuestions.GoFifteenQue(storeStringInferredArray))
     fmt.Println(goQuestions.GoSixteenQue(7))
     fmt.Println(goQuestions.GoLinearSearch(tempArray71, 54))
