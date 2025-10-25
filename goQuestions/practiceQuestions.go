@@ -296,3 +296,14 @@ func GoFourteenQue(name string) Student{
     student1.AvgGrade /= float64(len(student1.Grades))
     return student1
 }
+
+// Write a program that groups a slice of strings by their length using a map.
+
+
+func GoFifteenQue(listStr []string)[int][]string{
+    groupByLength = make(map[int][]string)
+    for _, ele := range listStr{
+        groupByLength[len(ele)] = append(groupByLength[len(ele)], ele)
+    }
+    return groupByLength
+}

@@ -113,7 +113,7 @@ func main(){
     goSwitch.MultiTierSwitch(51)
 
     goFor.RunANormalForLoops()
-    storeStringInferredArray := []string{"arupa", "deni", "ashutosh", "Subham", "i don't know"}
+    storeStringInferredArray := []string{"arupa", "pinki", "jersey", "megha", "deni", "ashutosh", "Subham", "i don't know"}
     goFor.ArrayIterativeForLoops(storeStringInferredArray)
     goFor.ArrayIndexIterativeForLoops(storeStringInferredArray)
     goFor.ArrayValuesIterativeForLoops(storeStringInferredArray)
@@ -174,4 +174,5 @@ func main(){
     goQuestions.CallBook(storeForFunc12)
     fmt.Println(goQuestions.GoThirteenQue("Arupa Nanda Swain"))
     fmt.Println(goQuestions.GoFourteenQue("Arupa"))
+    fmt.Println(goQuestions.GoFifteenQue("Arupa"))
 }
