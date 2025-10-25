@@ -174,5 +174,5 @@ func main(){
     goQuestions.CallBook(storeForFunc12)
     fmt.Println(goQuestions.GoThirteenQue("Arupa Nanda Swain"))
     fmt.Println(goQuestions.GoFourteenQue("Arupa"))
-    fmt.Println(goQuestions.GoFifteenQue("Arupa"))
+    fmt.Println(goQuestions.GoFifteenQue(storeStringInferredArray))
 }
