@@ -300,8 +300,8 @@ func GoFourteenQue(name string) Student{
 // Write a program that groups a slice of strings by their length using a map.
 
 
-func GoFifteenQue(listStr []string)[int][]string{
-    groupByLength = make(map[int][]string)
+func GoFifteenQue(listStr []string) map[int][]string{
+    groupByLength := make(map[int][]string)
     for _, ele := range listStr{
         groupByLength[len(ele)] = append(groupByLength[len(ele)], ele)
     }
