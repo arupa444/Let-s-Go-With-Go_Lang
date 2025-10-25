@@ -343,4 +343,3 @@ func GoBinarySearch(nums []int, ele int)int{
     }
     return -1
 }
-
