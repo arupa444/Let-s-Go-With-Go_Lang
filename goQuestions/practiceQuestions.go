@@ -307,3 +307,14 @@ func GoFifteenQue(listStr []string) map[int][]string{
     }
     return groupByLength
 }
+
+// Write a recursive function to calculate the nth Fibonacci number.
+
+func GoSixteenQue(nth int) int{
+    if nth == 0{
+        return 0
+    }else if nth == 1{
+        return 1
+    }
+    return GoSixteenQue(nth-1) + GoSixteenQue(nth-2)
+}

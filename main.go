@@ -175,4 +175,5 @@ func main(){
     fmt.Println(goQuestions.GoThirteenQue("Arupa Nanda Swain"))
     fmt.Println(goQuestions.GoFourteenQue("Arupa"))
     fmt.Println(goQuestions.GoFifteenQue(storeStringInferredArray))
+    fmt.Println(goQuestions.GoSixteenQue(7))
 }
