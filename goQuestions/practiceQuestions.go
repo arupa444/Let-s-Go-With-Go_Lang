@@ -343,3 +343,5 @@ func GoBinarySearch(nums []int, ele int)int{
     }
     return -1
 }
+
+// 18. Write a program that swaps two numbers using pointers.
