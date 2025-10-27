@@ -179,8 +179,8 @@ func main(){
     fmt.Println(goQuestions.GoLinearSearch(tempArray71, 99))
     fmt.Println(goQuestions.GoBinarySearch(tempArray71, 67567))
     fmt.Println(goQuestions.GoPointers(75))
-    var valueP1 int = 11
-    var valueP2 int = 22
-    goQuestions.GoPointers1(&valueP1, &valueP2)
-    fmt.Println(valueP1, valueP2)
+    var daniel int = 75
+    var arupa int = 69
+    goQuestions.GoPointers1(&daniel, &arupa)
+    fmt.Println(daniel, arupa)
 }

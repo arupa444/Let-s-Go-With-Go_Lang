@@ -352,5 +352,6 @@ func GoPointers(valuesForP int)*int{
 // 18. Write a program that swaps two numbers using pointers.
 
 func GoPointers1(valueP1, valueP2 *int){
+    fmt.Println(valueP1, valueP2)
     *valueP1, *valueP2 = *valueP2, *valueP1
 }
