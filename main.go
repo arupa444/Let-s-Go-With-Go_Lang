@@ -181,6 +181,6 @@ func main(){
     fmt.Println(goQuestions.GoPointers(75))
     var valueP1 int = 11
     var valueP2 int = 22
-    fmt.Println(goQuestions.GoPointers1(valueP1, valueP2))
+    goQuestions.GoPointers1(valueP1, valueP2)
     fmt.Println(valueP1, valueP2)
 }
