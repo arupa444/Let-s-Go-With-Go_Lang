@@ -351,7 +351,7 @@ func GoPointers(valuesForP int)*int{
 }
 // 18. Write a program that swaps two numbers using pointers.
 
-func GoPointers(valuesForP int)*int{
+func GoPointers1(valuesForP int)*int{
     var p *int
     p = &valuesForP
     return p
