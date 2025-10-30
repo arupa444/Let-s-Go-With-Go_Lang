@@ -358,3 +358,13 @@ func GoPointers1(valueP1, valueP2 *int){
 
 // Write a function that takes a variadic number of integers and returns their sum and average.
 
+func GoVariadicNo(nums ...int) (avg float64, sum int){
+    if len(nums) == 0{
+        return
+    }
+    for _, ele := range nums{
+        sum += ele
+    }
+    avg = float64(sum)/float64(len(nums))
+    return
+}

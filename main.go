@@ -183,4 +183,5 @@ func main(){
     var arupa int = 69
     goQuestions.GoPointers1(&daniel, &arupa)
     fmt.Println(daniel, arupa)
+    fmt.Println(goQuestions.GoVariadicNo())
 }
