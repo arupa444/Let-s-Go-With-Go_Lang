@@ -368,3 +368,5 @@ func GoVariadicNo(nums ...int) (avg float64, sum int){
     avg = float64(sum)/float64(len(nums))
     return
 }
+
+// Write a program that creates a simple calculator using a switch statement (add, subtract, multiply, divide)
