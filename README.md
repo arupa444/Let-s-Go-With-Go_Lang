@@ -43,6 +43,6 @@ go run main.go
 * Benchmarking
 
 
-## Keep Learning, Kepp Growing
+## Keep Learning, Keep Growing
 
 
