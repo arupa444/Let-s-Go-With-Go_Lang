@@ -24,12 +24,15 @@ To get started with these examples, you'll need to have Go installed on your com
 Once Go is installed, you can run any of the `.go` files using the following command in your terminal:
 
 ```bash
+# To initialize a new Go module and start managing your project's dependencies
+go mod init <module_name>
 go run <filename>.go
 ```
 
 For example, to run the main.go file in the root directory, you would use:
 
 ```bash
+go mod init startGoLLM
 go run main.go
 ```
 ## 📚 Topics Covered
