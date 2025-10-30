@@ -356,4 +356,5 @@ func GoPointers1(valueP1, valueP2 *int){
     *valueP1, *valueP2 = *valueP2, *valueP1
 }
 
+// Write a function that takes a variadic number of integers and returns their sum and average.
 
