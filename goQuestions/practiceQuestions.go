@@ -372,4 +372,19 @@ func GoVariadicNo(nums ...int) (avg float64, sum int){
 // Write a program that creates a simple calculator using a switch
 // statement (add, subtract, multiply, divide)
 
-func
+func addition(nums []int)int{
+    sum :=
+    for _, ele := range nums{
+        s
+    }
+}
+
+func GoCalculator(nums ...any) any{
+    var choose int
+    fmt.Print("Enter 1 to add, 2 to subtract, 3 to multiply, 4 to divide : ")
+    fmt.Scan(&choose)
+    switch(choose){
+        case 1 :
+            resultData = addition(nums)
+    }
+}

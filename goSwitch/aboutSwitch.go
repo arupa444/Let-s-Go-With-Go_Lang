@@ -6,7 +6,7 @@ import (
 // its about witch case in GoLang
 func Tier1Switch(ele int){
     switch ele {
-        case 1:
+        case '+':
             fmt.Println(ele,"reeeeeeeeee")
         case 2:
             fmt.Println(ele,"reeeeeeeeee")
