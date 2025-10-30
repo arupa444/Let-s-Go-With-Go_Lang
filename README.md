@@ -35,6 +35,20 @@ For example, to run the main.go file in the root directory, you would use:
 go mod init startGoLLM
 go run main.go
 ```
+
+Add Packages using:
+
+```bash
+go get <package_name>
+```
+
+for example:
+
+```bash
+go get golang.org/x/exp/constraints
+```
+
+
 ## 📚 Topics Covered
 * Variables and Data Types
 * Arrays
