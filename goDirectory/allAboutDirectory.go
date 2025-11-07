@@ -23,3 +23,12 @@ func CreateNestedDir(nums ...string){
     }
     fmt.Println("successfully created a directory")
 }
+
+func RemoveDir(dirName string){
+    err := os.Remove(dirName)
+    if err != nil{
+        fmt.Println("Error while directory deletion: ", err)
+        return
+    }
+    fmt.Println("successfully deleted a directory")
+}
