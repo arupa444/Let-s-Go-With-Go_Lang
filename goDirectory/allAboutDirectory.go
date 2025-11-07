@@ -3,6 +3,7 @@ package goDirectory
 import (
     "fmt"
     "os"
+    "strings"
 )
 
 func CreateDir(dirName string){
@@ -12,4 +13,13 @@ func CreateDir(dirName string){
         return
     }
     fmt.Println("Successfully created a Directory....")
+}
+
+func CreateNestedDir(nums ...string){
+    err := os.MkdirAll(strings.Join(nums, "/"), 0755)
+    if err != nil{
+        fmt.Println("Error while creating a nested dir: ", err)
+        return
+    }
+    fmt.Println("successfully created a directory")
 }
