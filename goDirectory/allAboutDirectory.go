@@ -32,3 +32,12 @@ func RemoveDir(dirName string){
     }
     fmt.Println("successfully deleted a directory")
 }
+
+func RemoveNestedDir(dirName string){
+    err:= os.RemoveAll(dirName)
+    if err != nil{
+        fmt.Println("Error while deleting the Nested Dir: ", err)
+        return
+    }
+    fmt.Println("Successfully removed the nested dir...")
+}
