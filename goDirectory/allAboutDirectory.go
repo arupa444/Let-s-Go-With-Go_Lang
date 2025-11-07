@@ -5,8 +5,8 @@ import (
     "os"
 )
 
-func createDir(name str){
-    err := os.Mkdir(name, 0755)
+func CreateDir(dirName string){
+    err := os.Mkdir(dirName, 0755)
     if err != nil{
         fmt.Println("Error while directory creation: ", err)
         return
