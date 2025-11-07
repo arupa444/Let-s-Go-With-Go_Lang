@@ -189,5 +189,5 @@ func main(){
 
 
 //     About Directory manipulation
-    goDirectory.CreateDir("GoALLTheASS")
+    goDirectory.CreateDir("Hella Deni")
 }
