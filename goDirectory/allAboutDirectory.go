@@ -21,7 +21,7 @@ func CreateNestedDir(nums ...string){
         fmt.Println("Error while creating a nested dir: ", err)
         return
     }
-    fmt.Println("successfully created a directory")
+    fmt.Println("successfully created a nested directory")
 }
 
 func RemoveDir(dirName string){
