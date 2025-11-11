@@ -193,4 +193,9 @@ func main(){
     goDirectory.CreateNestedDir("app","model","images")
     goDirectory.RemoveDir("Hella Deni")
     goDirectory.RemoveNestedDir("app")
+//     goDirectory.CreateNestedDir("huihui","Ani", "Satya")
+//     goDirectory.RenameDir("huihui", "Satya")
+//     goDirectory.RemoveDir("Satya")
+//     goDirectory.RemoveNestedDir("huihui")
+
 }

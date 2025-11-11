@@ -42,8 +42,8 @@ func RemoveNestedDir(dirName string){
     fmt.Println("Successfully removed the nested dir...")
 }
 
-func renameDir(oldDirName, newDirName string){
-    err:= os.removed(oldDirName, newDirName)
+func RenameDir(oldDirName, newDirName string){
+    err:= os.Rename(oldDirName, newDirName)
     if err != nil{
         fmt.Println("Error while changing the name...", err)
     }
