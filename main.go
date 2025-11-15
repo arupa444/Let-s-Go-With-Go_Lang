@@ -193,9 +193,11 @@ func main(){
     goDirectory.CreateNestedDir("app","model","images")
     goDirectory.RemoveDir("Hella Deni")
     goDirectory.RemoveNestedDir("app")
+    goDirectory.CreateDir("Aruuu")
 //     goDirectory.CreateNestedDir("huihui","Ani", "Satya")
 //     goDirectory.RenameDir("huihui", "Satya")
 //     goDirectory.RemoveDir("Satya")
 //     goDirectory.RemoveNestedDir("huihui")
+    goDirectory.RenameDir("rtg", "go7For")
 
 }
