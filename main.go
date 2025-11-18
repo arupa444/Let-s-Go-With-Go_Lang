@@ -3,7 +3,7 @@ import (
     "fmt"
     "os"
 	"path/filepath"
-	"CLIPacks/Utils"
+	"startGoLLM/Utils"
     "startGoLLM/inventoryDetails"
     "startGoLLM/goIfElse"
     "startGoLLM/goString"
