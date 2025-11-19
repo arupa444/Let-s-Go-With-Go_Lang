@@ -189,11 +189,6 @@ func main(){
     fmt.Println(daniel, arupa)
     fmt.Println(goQuestions.GoVariadicNo(12,34,23,43,54,6457))
 
-
-
-
-
-
 //     About Directory manipulation
     goDirectory.CreateDir("Hella Deni")
     goDirectory.CreateNestedDir("app","model","images")
