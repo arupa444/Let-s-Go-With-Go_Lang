@@ -191,6 +191,9 @@ func main(){
 
 
 
+
+
+
 //     About Directory manipulation
     goDirectory.CreateDir("Hella Deni")
     goDirectory.CreateNestedDir("app","model","images")
