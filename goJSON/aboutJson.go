@@ -6,19 +6,19 @@ import(
 )
 
 type AccountDetails struct{
-    Balance             float64
-    Currency            string
+    Balance             float64             `json:"balance"`
+    Currency            string              `json:"currency"`
 }
 
 type SavingsAccount struct{
-    Name                string
-    AccountDetails      AccountDetails
-    Age                 int
+    Name                string              `json:"name"`
+    AccountDetails      AccountDetails      `json:"accountDetails"`
+    Age                 int                 `json:"age"`
 }
 
 type Accounts struct{
-    ID                  string
-    SavingsAccount      SavingsAccount
+    ID                  string              `json:"id"`
+    SavingsAccount      SavingsAccount      `json:"savingsAccount"`
 }
 
 func FetchJsonData(){
