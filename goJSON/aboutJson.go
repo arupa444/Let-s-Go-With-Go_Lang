@@ -5,19 +5,20 @@ import(
     "os"
 )
 
-type AccountDetailsStruct struct{
+type AccountDetails struct{
     Balance             float64
     Currency            string
 }
 
 type SavingsAccount struct{
     Name                string
-    AccountDetails      AccountDetailsStruct
+    AccountDetails      AccountDetails
     Age                 int
 }
 
 type Accounts struct{
     ID                  string
+    SavingsAccount      SavingsAccount
 }
 
 func FetchJsonData(){
