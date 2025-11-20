@@ -7,7 +7,7 @@ import(
 
 
 type SavingsAccount struct{
-    Name :
+
 }
 
 func FetchJsonData(){
