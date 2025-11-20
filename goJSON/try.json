@@ -1,8 +1,8 @@
 {
-  "name": "Arupa",
-  "accountDetails": {
-    "balance" : 0.23,
-    "currency" : "Rupee"
+  "Name": "Arupa",
+  "AccountDetails": {
+    "Balance" : 0.23,
+    "Currency" : "Rupee"
   },
-  "age" : 21
+  "Age" : 21
 }
