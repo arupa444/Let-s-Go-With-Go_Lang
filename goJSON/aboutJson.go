@@ -1,0 +1,6 @@
+package goJSON
+
+func fetchJsonData(){
+
+
+}
