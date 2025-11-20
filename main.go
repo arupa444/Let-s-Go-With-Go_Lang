@@ -15,6 +15,7 @@ import (
     "startGoLLM/goMap"
     "startGoLLM/goQuestions"
     "startGoLLM/goDirectory"
+    "startGoLLM/goJSON"
 //     "bufio"
 //     "os"
 )
@@ -224,4 +225,5 @@ func main(){
     fmt.Println("Created and wrote some syntax's on the create file")
 
     trio.Loon()
+    goJSON.FetchJsonData()
 }
