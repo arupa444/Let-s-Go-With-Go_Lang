@@ -33,7 +33,6 @@ func FetchJsonData(){
     defer jsonFile.Close()
 
     byteValues, _ := ioutil.ReadAll(jsonFile)
-    fmt.Println(byteValues)
 
     json.Unmarshal(byteValues, &accounts)
     fmt.Println(accounts)
