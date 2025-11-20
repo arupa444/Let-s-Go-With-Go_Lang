@@ -1,9 +1,11 @@
 {
-  "Name": "Arupa",
-  "AccountDetails": {
-    "Balance" : 0.23,
-    "Currency" : "Rupee"
-  },
-  "Age" : 21
-}
+  "id" : "A112",
+  "savingsAccount":{
+      "name": "Arupa",
+      "accountDetails": {
+        "balance": 0.23,
+        "currency": "Rupee"
+      },
+      "age": 21
+  }
 }
