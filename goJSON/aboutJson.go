@@ -24,8 +24,8 @@ type Accounts struct{
 }
 
 func FetchJsonData(){
-    var saveAccount SavingsAccount
-    jsonFile, err := os.Open("try.json")
+    var accounts Accounts
+    jsonFile, err := os.Open("goJSON/try.json")
     if err != nil{
         fmt.Errorf("The error : ", err)
     }
@@ -35,5 +35,6 @@ func FetchJsonData(){
     byteValues, _ := ioutil.ReadAll(jsonFile)
     fmt.Println(byteValues)
 
-    json.Unmarshal(byteValues, &saveAccount)
+    json.Unmarshal(byteValues, &accounts)
+    fmt.Println(accounts)
 }
