@@ -3,6 +3,8 @@ package goJSON
 import(
     "fmt"
     "os"
+//     "encoding/json"
+    "io/ioutil"
 )
 
 type AccountDetails struct{
@@ -30,5 +32,6 @@ func FetchJsonData(){
     fmt.Println("Successfully opened the .json file")
     defer jsonFile.Close()
 
-
+    byteValues, _ := ioutil.ReadAll(jsonFile)
+    fmt.Println(byteValues)
 }
