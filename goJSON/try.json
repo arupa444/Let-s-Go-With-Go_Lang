@@ -1,6 +1,6 @@
 {
   "name": "Arupa",
-  "details": {
+  "accountDetails": {
     "balance" : 0.23,
     "currency" : "Rupee"
   },
