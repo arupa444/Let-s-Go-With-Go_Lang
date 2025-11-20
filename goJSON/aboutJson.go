@@ -3,7 +3,7 @@ package goJSON
 import(
     "fmt"
     "os"
-//     "encoding/json"
+    "encoding/json"
     "io/ioutil"
 )
 
@@ -24,7 +24,7 @@ type Accounts struct{
 }
 
 func FetchJsonData(){
-//     var saveAccount SavingsAccount
+    var saveAccount SavingsAccount
     jsonFile, err := os.Open("try.json")
     if err != nil{
         fmt.Errorf("The error : ", err)
@@ -34,4 +34,6 @@ func FetchJsonData(){
 
     byteValues, _ := ioutil.ReadAll(jsonFile)
     fmt.Println(byteValues)
+
+    json.Unmarshal(byteValues, &saveAccount)
 }
