@@ -37,3 +37,5 @@ func FetchJsonData(){
     json.Unmarshal(byteValues, &accounts)
     fmt.Println(accounts)
 }
+
+
